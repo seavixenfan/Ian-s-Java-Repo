@@ -174,7 +174,7 @@ public class CarTaxCheck {
                     if (inputreg.equals(expectedreg))
                     {
                         System.out.println("CHECKING "+expectedreg+" RETRIEVED DATA AGAINST EXPECTED"); // DEBUG
-                        for (k = 0; k < vehicleDataArray[j].length - 1; k++)
+                        for (k = 0; k < vehicleDataArray[j].length; k++)
                         {
                             String elementDatatoFind = vehicleDataArray[j][k];
                             System.out.println("verifying prescence of : "+elementDatatoFind);
